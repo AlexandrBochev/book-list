@@ -22,7 +22,7 @@ Book List is a React application that allows users to manage a list of books. It
 ## 📦 Installation
 1. **Clone the repository**:
    ```sh
-   git clone https://github.com/your-username/book-list.git
+   git clone https://github.com/AlexandrBochev/book-list.git
    cd book-list
    ```
 
