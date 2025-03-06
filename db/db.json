@@ -1,0 +1,204 @@
+{
+  "books": [
+    {
+      "id": "1741287387498",
+      "bookTitle": "The Great Gatsby",
+      "authorName": "F. Scott Fitzgerald",
+      "category": "Classic",
+      "isbn": "9780743273565",
+      "createdAt": "2025-03-06T18:56:27.498Z",
+      "updatedAt": "",
+      "isActive": true
+    },
+    {
+      "id": "1741287421846",
+      "bookTitle": "To Kill a Mockingbird",
+      "authorName": "Harper Lee",
+      "category": "Classic",
+      "isbn": "9780061120084",
+      "createdAt": "2025-03-06T18:57:01.846Z",
+      "updatedAt": "",
+      "isActive": false
+    },
+    {
+      "id": "1741287461601",
+      "bookTitle": "1984",
+      "authorName": "George Orwell",
+      "category": "Dystopian",
+      "isbn": "9780451524935",
+      "createdAt": "2025-03-06T18:57:41.601Z",
+      "updatedAt": "2025-03-06T19:04:19.881Z",
+      "isActive": true
+    },
+    {
+      "id": "1741287483545",
+      "bookTitle": "Pride and Prejudice",
+      "authorName": "Jane Austen",
+      "category": "Romance",
+      "isbn": "9781503290563",
+      "createdAt": "2025-03-06T18:58:03.545Z",
+      "updatedAt": "",
+      "isActive": false
+    },
+    {
+      "id": "1741287513212",
+      "bookTitle": "Moby-Dick",
+      "authorName": "Herman Melville",
+      "category": "Adventure",
+      "isbn": "9781503280786",
+      "createdAt": "2025-03-06T18:58:33.212Z",
+      "updatedAt": "2025-03-06T19:12:23.827Z",
+      "isActive": true
+    },
+    {
+      "id": "1741287538082",
+      "bookTitle": "Brave New World",
+      "authorName": "Aldous Huxley",
+      "category": "Dystopian",
+      "isbn": "9780060850524",
+      "createdAt": "2025-03-06T18:58:58.082Z",
+      "updatedAt": "2025-03-06T19:07:20.205Z",
+      "isActive": false
+    },
+    {
+      "id": "1741287582071",
+      "bookTitle": "The Catcher in the Rye",
+      "authorName": "J.D. Salinger",
+      "category": "Classic",
+      "isbn": "9780316769488",
+      "createdAt": "2025-03-06T18:59:42.071Z",
+      "updatedAt": "",
+      "isActive": false
+    },
+    {
+      "id": "1741287604905",
+      "bookTitle": "Crime and Punishment",
+      "authorName": "Fyodor Dostoevsky",
+      "category": "Classic",
+      "isbn": "9780486415871",
+      "createdAt": "2025-03-06T19:00:04.905Z",
+      "updatedAt": "",
+      "isActive": true
+    },
+    {
+      "id": "1741287638401",
+      "bookTitle": "The Hobbit",
+      "authorName": "J.R.R. Tolkien",
+      "category": "Fantasy",
+      "isbn": "9780547928227",
+      "createdAt": "2025-03-06T19:00:38.401Z",
+      "updatedAt": "2025-03-06T19:02:01.955Z",
+      "isActive": true
+    },
+    {
+      "id": "1741287658952",
+      "bookTitle": "War and Peace",
+      "authorName": "Leo Tolstoy",
+      "category": "Historical",
+      "isbn": "9780199232765",
+      "createdAt": "2025-03-06T19:00:58.952Z",
+      "updatedAt": "",
+      "isActive": true
+    },
+    {
+      "id": "1741287684427",
+      "bookTitle": "The Road",
+      "authorName": "Cormac McCarthy",
+      "category": "Post-Apocalyptic",
+      "isbn": "9780307387899",
+      "createdAt": "2025-03-06T19:01:24.427Z",
+      "updatedAt": "",
+      "isActive": true
+    },
+    {
+      "id": "1741287706862",
+      "bookTitle": "The Lord of the Rings",
+      "authorName": "J.R.R. Tolkien",
+      "category": "Fantasy",
+      "isbn": "9780618640157",
+      "createdAt": "2025-03-06T19:01:46.862Z",
+      "updatedAt": "2025-03-06T19:07:31.961Z",
+      "isActive": false
+    },
+    {
+      "id": "1741287757902",
+      "bookTitle": "Fahrenheit 451",
+      "authorName": "Ray Bradbury",
+      "category": "Dystopian",
+      "isbn": "9781451673319",
+      "createdAt": "2025-03-06T19:02:37.902Z",
+      "updatedAt": "2025-03-06T19:07:36.663Z",
+      "isActive": true
+    },
+    {
+      "id": "1741287789146",
+      "bookTitle": "The Alchemist",
+      "authorName": "Paulo Coelho",
+      "category": "Philosophical",
+      "isbn": "9780061122415",
+      "createdAt": "2025-03-06T19:03:09.146Z",
+      "updatedAt": "2025-03-06T19:04:12.317Z",
+      "isActive": false
+    },
+    {
+      "id": "1741287822562",
+      "bookTitle": "Dracula",
+      "authorName": "Bram Stoker",
+      "category": "Horror",
+      "isbn": "9780486411095",
+      "createdAt": "2025-03-06T19:03:42.562Z",
+      "updatedAt": "",
+      "isActive": true
+    },
+    {
+      "id": "1741287889465",
+      "bookTitle": "Frankenstein",
+      "authorName": "Mary Shelley",
+      "category": "Horror",
+      "isbn": "9780486282114",
+      "createdAt": "2025-03-06T19:04:49.465Z",
+      "updatedAt": "",
+      "isActive": true
+    },
+    {
+      "id": "1741287939149",
+      "bookTitle": "The Picture of Dorian Gray",
+      "authorName": "Oscar Wilde",
+      "category": "Gothic Fiction",
+      "isbn": "9780486278070",
+      "createdAt": "2025-03-06T19:05:39.149Z",
+      "updatedAt": "",
+      "isActive": false
+    },
+    {
+      "id": "1741287968048",
+      "bookTitle": "A Tale of Two Cities",
+      "authorName": "Charles Dickens",
+      "category": "Historical",
+      "isbn": "9780486406510",
+      "createdAt": "2025-03-06T19:06:08.048Z",
+      "updatedAt": "2025-03-06T19:07:26.807Z",
+      "isActive": true
+    },
+    {
+      "id": "1741288002572",
+      "bookTitle": "Jane Eyre",
+      "authorName": "Charlotte Brontë",
+      "category": "Romance",
+      "isbn": "9780141441146",
+      "createdAt": "2025-03-06T19:06:42.572Z",
+      "updatedAt": "",
+      "isActive": true
+    },
+    {
+      "id": "1741288033847",
+      "bookTitle": "The Grapes of Wrath",
+      "authorName": "John Steinbeck",
+      "category": "Classic",
+      "isbn": "9780143039433",
+      "createdAt": "2025-03-06T19:07:13.848Z",
+      "updatedAt": "2025-03-06T19:12:59.853Z",
+      "isActive": true
+    }
+  ]
+}

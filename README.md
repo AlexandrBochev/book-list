@@ -1,55 +1,69 @@
-# React + TypeScript + Vite
+# Book List App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Overview
+Book List is a React application that allows users to manage a list of books. It provides functionality to add, edit, filter, and toggle the active status of books. The app uses JSON Server as a mock backend and React Router for navigation.
 
-Currently, two official plugins are available:
+## 🚀 Features
+- Add new books with details like title, author, category, and ISBN.
+- Edit existing books.
+- Toggle book status (Active/Deactivated).
+- Filter books by status (Show All, Show Active, Show Deactivated).
+- Persistent filter selection using `localStorage`.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## 🛠️ Tech Stack
+- **Frontend:** React, TypeScript, Tailwind CSS, Radix UI, Lucide Icons
+- **Routing:** React Router
+- **State Management:** useState, useEffect
+- **Mock Backend:** JSON Server
+- **Build Tool:** Vite
+- **Linting:** ESLint
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 📦 Installation
+1. **Clone the repository**:
+   ```sh
+   git clone https://github.com/your-username/book-list.git
+   cd book-list
+   ```
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+2. **Install dependencies**:
+   ```sh
+   npm install
+   ```
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+## 🚀 Running the Application
+### Start the development server:
+```sh
+npm run dev
 ```
-# book-list
+This will start the Vite development server.
+
+### Start the JSON Server:
+```sh
+npm run server
+```
+This will run the JSON Server on `http://localhost:8000/`.
+
+## 🛠 Usage
+- Navigate to `http://localhost:5173/` (default Vite port) to use the app.
+- Use the **Add Book** page to add a new book.
+- Click **Edit** on any book to modify its details.
+- Use the **Toggle Active** button to activate/deactivate books.
+- Use the **Filter Dropdown** to switch between **Show All, Show Active, Show Deactivated**.
+
+
+## ✨ Additional Commands
+- **Build the project:**
+  ```sh
+  npm run build
+  ```
+- **Lint the code:**
+  ```sh
+  npm run lint
+  ```
+- **Preview production build:**
+  ```sh
+  npm run preview
+  ```
+
+
